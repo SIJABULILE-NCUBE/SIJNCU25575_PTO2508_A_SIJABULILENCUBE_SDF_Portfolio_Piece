@@ -1,0 +1,94 @@
+# 🌿 SDF – Final Portfolio Piece
+
+This project is my final portfolio piece for Software Development Fundamentals.   
+It is built using **HTML5 and CSS3**, and is a faithful implementation of a provided Figma design.
+
+The goal of the project was to accurately recreate the layout, spacing, colours, typography, and component structure seen in the Figma file while keeping the site responsive and professionally coded.
+
+---
+
+## 🎨 Figma Reference  
+All sizes, colours, spacing, grid layouts and typography were taken directly from the official Figma design:
+
+🔗 https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1
+
+---
+
+## 🧠 What This Project Includes (Based on My HTML Structure)
+
+### ✅ **1. Profile Section**
+- Profile image sized exactly using **280–300px responsive aspect-ratio**
+- Name and personal bio
+- Fully responsive layout using grid + flexible width values  
+- Grey dotted background using **CSS radial gradient**
+
+### ✅ **2. Proficiency Section**
+- Semantic structure using `<section>` and `<div>`
+- Green progress bars with exact height, colour, and spacing
+- Labels: Beginner, Intermediate, Advanced
+- Uses Figma-matching font sizes (19.36px) and correct spacing
+
+### ✅ **3. Skills Section**
+- Skills displayed as mint-green tags  
+- Responsive wrapping using `flex-wrap`
+- Styled according to Figma (rounded tags, bold text)
+
+### ✅ **4. Projects Section**
+- White background for the main Projects container  
+- 4 project cards using CSS Grid  
+- First card styled as **dark green (featured)**  
+- All other cards = **mint green**  
+- **Red heart icons** restored and styled without background borders  
+- Uses `auto-fit` grid for fully responsive behaviour
+
+### ✅ **5. Education Section**
+- First item (“CodeSpace Academy”) styled in **dark green** to match Figma  
+- All other items styled in mint  
+- Semantic structure using cards + bullet lists  
+- Left/right layout using two-column flexible grid
+
+### ✅ **6. Tools Section**
+- Organised into 3 categories: Languages, Design, Tools  
+- Uses Devicons (HTML, CSS, Node.js, Tailwind, Figma, Google, Git, GitHub)
+- Column layout for mobile, vertical stacking for desktop
+
+### ✅ **7. Experience Section**
+- Featured experience box (Absa Business) highlighted in dark green  
+- Badge “Most Recent” included  
+- Other experience cards styled mint green  
+- Clean two-column layout  
+- Uses semantic HTML + bullet lists  
+
+### ✅ **8. Footer**
+- Orange footer (#D86A45)
+- Email, LinkedIn, GitHub links in **white text (as required)**
+- Flexbox layout for spacing
+
+---
+
+## 🧩 Responsive Design Techniques Used (Based on My CSS)
+
+This project includes custom responsiveness using:
+
+### ✔ **CSS Grid with minmax()**
+Used in:
+- Profile section  
+- Top-grid  
+- Projects grid  
+- Bottom-grid  
+- Education + Experience sections  
+
+### ✔ **auto-fit / auto-fill grids**
+Used to make Projects section fully responsive without breaking layout.
+
+### ✔ **flex-wrap**
+Used for skills tags, tools section, footer, etc.
+
+### ✔ **viewport-based scaling**
+Examples:
+```css
+width: min(300.1px, 28vw);
+min-height: min(300.1px, 32vw);
+
+# In addition to developing my HTML, CSS and RREADME files, I have completed a project presentation. You can access it using the link below:
+
