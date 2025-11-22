@@ -84,11 +84,7 @@ Used to make Projects section fully responsive without breaking layout.
 ### ✔ **flex-wrap**
 Used for skills tags, tools section, footer, etc.
 
-### ✔ **viewport-based scaling**
-Examples:
-```css
-width: min(300.1px, 28vw);
-min-height: min(300.1px, 32vw);
+
 
 # In addition to developing my HTML, CSS and RREADME files, I have completed a project presentation. You can access it using the link below:
 https://www.veed.io/view/7ca5c3c8-2e73-47b2-a0ba-32265e4cdfd0?source=editor&panel=share
